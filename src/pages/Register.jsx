@@ -15,7 +15,7 @@ export default function Register() {
     try {
       const res = await API.post("/auth/register", form);
       login(res.data);
-      navigate("/todos");
+      navigate("/");
     } catch (err) {
       alert(err.response.data.message || "Error registering");
     }
