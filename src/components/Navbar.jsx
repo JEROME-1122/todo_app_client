@@ -29,6 +29,11 @@ export default function Navbar() {
             <Link to="/todos" className="text-gray-700 hover:text-blue-600">
               My Todos
             </Link>
+              {user ?(
+               <Link to="/dashboard" className="text-gray-700 hover:text-blue-600">
+             Dashboard
+            </Link>
+            ):(<></>)}
             {user ? (
               <>
                 <span className="text-gray-700">Hi, {user.name}</span>
@@ -108,6 +113,12 @@ export default function Navbar() {
           >
             My Todos
           </Link>
+
+            {user ?(
+               <Link to="/dashboard" className="text-gray-700 hover:text-blue-600">
+             Dashboard
+            </Link>
+            ):(<></>)}
           {user ? (
             <>
               <span className="block px-4 py-2 text-gray-700">Hi, {user.name}</span>
@@ -144,3 +155,4 @@ export default function Navbar() {
     </nav>
   );
 }
+
