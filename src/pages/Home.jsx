@@ -89,7 +89,7 @@ export default function Home() {
       <section className="bg-white py-20 px-4">
         <div className="max-w-6xl mx-auto grid md:grid-cols-2 gap-16 items-center">
           <img
-            src="https://source.unsplash.com/600x400/?planning,calendar"
+            src="https://media.istockphoto.com/id/1193476717/photo/male-hands-making-a-to-do-list-in-a-notebook-over-an-office-desk.jpg?s=612x612&w=0&k=20&c=8DNkIq4K2W-AmeWes4436EDbjRwltEOUt3FIjY4ubVw="
             alt="Plan"
             className="rounded-xl shadow-lg"
           />
